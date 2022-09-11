@@ -12,21 +12,18 @@ function CardItem() {
     });
   }, []);
   return (
-    <div>
+    <div className="catalog">
       {articles.map((item) => {
         return (
-          <div className="catalog">
-            <div className="catalog-item">
-              <div className="catalog-img-container">
-                <img src={item.imageUrl} className="catalog-item-img" />
-                <div className="characteristics">
-                  <span className="catalog-item-name">{item.name}</span>
-                  <span className="catalog-item-price">{item.price} ₴</span>
-                </div>
-
-                <div className="subscription-about-wrapper">
-                  <a href="contacts.html">Завмовити</a>
-                </div>
+          <div className="catalog-item">
+            <div className="catalog-img-container">
+              <img src={item.imageUrl} className="catalog-item-img" />
+              <div className="characteristics">
+                <span className="catalog-item-name">{item.name}</span>
+                <span className="catalog-item-price">{item.price} ₴</span>
+              </div>
+              <div className="subscription-about-wrapper">
+                <a href="contacts.html">Завмовити</a>
               </div>
             </div>
           </div>
