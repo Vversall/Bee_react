@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import axios from "axios";
 
 const src = "https://queenlyrain.backendless.app/api/data/tools";
@@ -15,7 +15,7 @@ function CardItem() {
     <div className="catalog">
       {articles.map((item) => {
         return (
-          <div className="catalog-item">
+          <div key={item.objectId} className="catalog-item">
             <div className="catalog-img-container">
               <img src={item.imageUrl} className="catalog-item-img" />
               <div className="characteristics">

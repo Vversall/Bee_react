@@ -4,9 +4,9 @@ import "../../src/App.css";
 const Footer = () => {
   return (
     <footer id="footer">
-      <div class="footer-conteiner">
-        <nav class="secondary-links">
-          <ul class="secondary-links-menu">
+      <div className="footer-conteiner">
+        <nav className="secondary-links">
+          <ul className="secondary-links-menu">
             <li>
               <a href="#">Відгуки</a>
             </li>
