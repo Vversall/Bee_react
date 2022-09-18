@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+    /* background-image: url(../images/main-background.jpg); */
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Droid Sans', arial, serif;
+}
+
+.wrapper {
+    margin: auto;
+}
+
+ul, ol{
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    display: flex;
+    align-items: center;
+}
+
+
+.mukola-container{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}

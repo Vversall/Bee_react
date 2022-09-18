@@ -1,9 +1,9 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
 
-const src = "https://queenlyrain.backendless.app/api/data/tools";
+const src = "https://queenlyrain.backendless.app/api/data/items";
 
-function CardItem() {
+function CardTools() {
   const [articles, setArticles] = useState([]);
 
   useEffect(() => {
@@ -17,7 +17,11 @@ function CardItem() {
         return (
           <div key={item.objectId} className="catalog-item">
             <div className="catalog-img-container">
-              <img src={item.imageUrl} className="catalog-item-img" />
+              <img
+                src={item.imageUrl}
+                alt={item.name}
+                className="catalog-item-img"
+              />
               <div className="characteristics">
                 <span className="catalog-item-name">{item.name}</span>
                 <span className="catalog-item-price">{item.price} ₴</span>
@@ -32,4 +36,4 @@ function CardItem() {
     </div>
   );
 }
-export default CardItem;
+export default CardTools;

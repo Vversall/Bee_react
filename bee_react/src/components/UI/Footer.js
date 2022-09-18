@@ -1,5 +1,8 @@
-import React from "react";
-import "../../src/App.css";
+import "../../App.css";
+import "../../Footer.css";
+import "../../Common.css";
+import "../../Index.css";
+import "../../Subscriptions.css";
 
 const Footer = () => {
   return (
