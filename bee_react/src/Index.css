@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    /* background-image: url(../images/main-background.jpg); */
+    background-image: url(./components/Images/main-background.jpg);
 }
 
 * {

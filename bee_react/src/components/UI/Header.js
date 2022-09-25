@@ -3,6 +3,7 @@ import "../../Header.css";
 import "../../Index.css";
 import "../../Subscriptions.css";
 import "../../Common.css";
+import { NavLink } from "react-router-dom";
 
 window.onload = function () {
   document.querySelector(".themetoggle").addEventListener("click", (event) => {
