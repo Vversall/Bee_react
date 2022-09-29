@@ -1,0 +1,97 @@
+.secondary-links {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.secondary-links-menu {
+    margin-top: 20px;
+    display: flex;
+    gap: 35px;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.phone-number {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.honey-logo {
+    height: 112px;
+    width: 128px;
+}
+
+.kyievstar,
+.kyievstar1 {
+    height: 40px;
+    width: 40px;
+}
+
+.honey-logo,
+.kyievstar,
+.number,
+.kyievstar1 {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+#menu {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    background-color: rgb(254, 177, 57)
+}
+
+#menu a {
+    padding: 15px 25px;
+    text-decoration: none;
+    font: bold 20px Arial;
+}
+
+#menu a:hover,
+#menu a.active {
+    background-color: rgb(210, 214, 91);
+}
+
+.secondary-links-menu a {
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+}
+html.dark,
+.dark body {
+    font-size: 18px;
+    font-family: sans-serif;
+    background-image: url(./components/Images/darkbg.jpg);
+    color: goldenrod;
+}
+
+.container {
+    max-width: 120px;
+    padding: 3px;
+
+}
+
+.themetoggle{
+    margin: auto;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    border-radius: 10%;
+    height: 30px;
+    width: 30px;
+    background-color: darkblue;
+    cursor: pointer;
+    margin-top: 7px;
+    margin-left: 50px;
+}
+
+.dark a {
+    color: rgb(255, 255, 255);
+}
