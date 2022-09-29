@@ -1,6 +1,6 @@
-import Modal from "./Modal";
+import { Modal } from "./Modal";
 import { useState } from "react";
-import Galery from "./Galery";
+import { Galery } from "./Galery";
 
 const MainModal = () => {
   const [modalActive, setModalActive] = useState(false);
@@ -22,4 +22,4 @@ const MainModal = () => {
   );
 };
 
-export default MainModal;
+export { MainModal };

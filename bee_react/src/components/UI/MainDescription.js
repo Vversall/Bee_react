@@ -34,4 +34,4 @@ const MainDescription = () => {
   );
 };
 
-export default MainDescription;
+export { MainDescription };

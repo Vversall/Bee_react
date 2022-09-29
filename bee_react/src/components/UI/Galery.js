@@ -65,4 +65,4 @@ const Galery = () => {
   );
 };
 
-export default Galery;
+export { Galery };

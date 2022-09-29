@@ -1,5 +1,5 @@
 import "../../App.css";
-import CardTools from "../UI/CardTools";
+import { CardTools } from "../UI/CardTools";
 
 function Tools() {
   return (
@@ -9,4 +9,4 @@ function Tools() {
   );
 }
 
-export default Tools;
+export { Tools };

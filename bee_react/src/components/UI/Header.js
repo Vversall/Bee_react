@@ -29,10 +29,10 @@ const Header = () => {
   return (
     <header id="header">
       <div id="menu">
-        <a>Головна</a>
-        <a>Мед</a>
-        <a>Все для пасіки</a>
-        <a>Контакти</a>
+        <NavLink to="./Pages/Items">Головна</NavLink>
+        <NavLink to="./Pages/Tools">Мед</NavLink>
+        <NavLink to="./Pages/Main">Все для пасіки</NavLink>
+        <NavLink to="*">Контакти</NavLink>
         <div className="container">
           <div className="section theme">
             <ul>
@@ -47,4 +47,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export { Header };

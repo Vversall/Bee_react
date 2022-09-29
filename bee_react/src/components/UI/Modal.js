@@ -12,4 +12,4 @@ const Modal = ({ active, setActive, children }) => {
     </div>
   );
 };
-export default Modal;
+export { Modal };

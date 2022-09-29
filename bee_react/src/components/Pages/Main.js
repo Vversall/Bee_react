@@ -2,8 +2,8 @@ import "../../App.css";
 import "../../Index.css";
 import "../../Subscriptions.css";
 import "../../Common.css";
-import MainDescription from "../UI/MainDescription";
-import MainModal from "../UI/MainModal";
+import { MainDescription } from "../UI/MainDescription";
+import { MainModal } from "../UI/MainModal";
 
 const Main = () => {
   return (
@@ -14,4 +14,4 @@ const Main = () => {
   );
 };
 
-export default Main;
+export { Main };

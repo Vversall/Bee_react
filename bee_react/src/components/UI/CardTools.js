@@ -36,4 +36,4 @@ function CardTools() {
     </div>
   );
 }
-export default CardTools;
+export { CardTools };

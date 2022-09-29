@@ -32,4 +32,4 @@ function CardItem() {
     </div>
   );
 }
-export default CardItem;
+export { CardItem };
